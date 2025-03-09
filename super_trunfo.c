@@ -23,7 +23,7 @@ int main() {
     scanf(" %c", &estado1);
 
     printf("Por favor informe o código da cidade (A letra do estado seguida de um número de 01 a 04): \n");
-    scanf("%s", codigo1);
+    scanf(" %s", codigo1);
 
     printf("Por favor informe o nome da cidade: \n");
     scanf(" %s", nome1);
