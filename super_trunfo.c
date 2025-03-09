@@ -8,6 +8,8 @@ int main() {
     int populacao1; //Numero de Habitantes
     float pib1; //PIB da cidade
     float area1; //Área em km²
+    float densidade1 = (populacao1 / area1); //Densidade Populacional
+    float pib_per_capita1 = (pib1 / populacao1); //Pib per capita
 
     char estado2; // Nome do Estado
     char codigo2[5]; //Código da Carta
@@ -16,6 +18,8 @@ int main() {
     int populacao2; //Numero de Habitantes
     float pib2; //PIB da cidade
     float area2; //Área em km²
+    float densidade2 = (populacao2 / area2); //Densidade Populacional
+    float pib_per_capita2 = (pib2 / populacao2); //Pib per capita
 
     printf("Carta 1 \n"); //Iniciando Perguntas da Carta 1
 
@@ -79,6 +83,8 @@ int main() {
     printf("Área (em km²): %f km²\n", area1);
     printf("PIB: %f bilhões de reais\n", pib1);
     printf("Numero de Pontos Turísticos: %d\n", pontos1);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade1);
+    printf("PIB per Capita: %.2f reais \n", pib_per_capita1);
 
     //Finalizando exibição dos Dados da Carta 1
 
@@ -94,6 +100,8 @@ int main() {
     printf("Área (em km²): %f km²\n", area2);
     printf("PIB: %f bilhões de reais\n", pib2);
     printf("Numero de Pontos Turísticos: %d\n", pontos2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade2);
+    printf("PIB per Capita: %.2f reais \n", pib_per_capita2);
 
     //Finalizando exibição dos Dados da Carta 2
         return 0;
