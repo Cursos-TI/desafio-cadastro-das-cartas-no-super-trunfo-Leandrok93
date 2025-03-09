@@ -39,32 +39,33 @@ int main() {
 
     printf("Por favor informe a quantidade de pontos turísticos na cidade: \n");
     scanf("%d", &pontos1); 
+    
     //Finalizando as Perguntas da primeira carta
 
-    printf("\n");
+        printf("\n");
 
-    printf("Carta 2 \n"); //Iniciando Perguntas da Carta 2
+        printf("Carta 2 \n"); //Iniciando Perguntas da Carta 2
 
-    printf("Por favor informe uma letra de 'A' a 'H' (representando um dos oito estados): \n");
-    scanf(" %c", &estado2);
+        printf("Por favor informe uma letra de 'A' a 'H' (representando um dos oito estados): \n");
+        scanf(" %c", &estado2);
 
-    printf("Por favor informe o código da cidade (A letra do estado seguida de um número de 01 a 04): \n");
-    scanf(" %s", codigo2);
+        printf("Por favor informe o código da cidade (A letra do estado seguida de um número de 01 a 04): \n");
+        scanf(" %s", codigo2);
 
-    printf("Por favor informe o nome da cidade: \n");
-    scanf(" %s", nome2);
+        printf("Por favor informe o nome da cidade: \n");
+        scanf(" %s", nome2);
 
-    printf("Por favor informe o número de habitantes da cidade: \n");
-    scanf("%d", &populacao2);
+        printf("Por favor informe o número de habitantes da cidade: \n");
+        scanf("%d", &populacao2);
 
-    printf("Por favor informe a área da cidade em quilômetros quadrados: \n");
-    scanf("%f", &area2);
+        printf("Por favor informe a área da cidade em quilômetros quadrados: \n");
+        scanf("%f", &area2);
 
-    printf("Por favor informe o Produto Interno Bruto da cidade (PIB): \n");
-    scanf("%f", &pib2);
+        printf("Por favor informe o Produto Interno Bruto da cidade (PIB): \n");
+        scanf("%f", &pib2);
 
-    printf("Por favor informe a quantidade de pontos turísticos na cidade: \n");
-    scanf("%d", &pontos2);
+        printf("Por favor informe a quantidade de pontos turísticos na cidade: \n");
+        scanf("%d", &pontos2);
     
     //Finalizando as Perguntas da Segunda Carta   
     
