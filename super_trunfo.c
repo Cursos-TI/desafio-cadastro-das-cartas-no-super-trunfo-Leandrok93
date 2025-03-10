@@ -76,7 +76,7 @@ int main() {
     //Iniciando a exibição dos Dados da Carta 1
 
     densidade1 = (float) populacao1 / area1;
-    pib_per_capita2 = (float) pib1 / populacao1;
+    pib_per_capita1 = (float) pib1 / populacao1;
     
     printf("Carta 01\n");
     printf("Estado: %c\n", estado1);
