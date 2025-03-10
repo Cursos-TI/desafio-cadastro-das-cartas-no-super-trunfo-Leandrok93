@@ -75,8 +75,8 @@ int main() {
     
     //Iniciando a exibição dos Dados da Carta 1
 
-    densidade1 = (float) populacao1 / area1;
-    pib_per_capita1 = (float) pib1 / populacao1;
+    densidade1 = (float) populacao1 / area1; //Calculo da Densidade
+    pib_per_capita1 = (float) pib1 / populacao1;  //Calculo do PIB per capita
     
     printf("Carta 01\n");
     printf("Estado: %c\n", estado1);
@@ -95,8 +95,8 @@ int main() {
 
     //Iniciando exibição dos Dados da Carta 2
     
-    densidade2 = (float) populacao2 / area2;
-    pib_per_capita2 = (float) pib2 / populacao2;
+    densidade2 = (float) populacao2 / area2; //Calculo da Densidade
+    pib_per_capita2 = (float) pib2 / populacao2; //Calculo do PIB per capita
 
     printf("Carta 02\n");
     printf("Estado: %c\n", estado2);
@@ -110,6 +110,11 @@ int main() {
     printf("PIB per Capita: %.2f reais \n", pib_per_capita2);
 
     //Finalizando exibição dos Dados da Carta 2
+
+    // Comparar Atributo
+
+    // Definir qual carta ganha
+    
         return 0;
 
 }
